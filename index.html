@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>BMI Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container">
+        <section class="row">
+            <input type="range" min="20" max="200" value="20" id="weight">
+            <span id="weight-val">20 kg</span>
+        </section>
+        <section class="row">
+            <input type="range" min="100" max="250" value="100" id="height">
+            <span id="height-val">100 cm</span>
+        </section>
+
+        <p id="result">20.0</p>
+        <p id="category">Normal weight</p>
+    </section>
+
+    <figure>
+        <img src="image/unde-weight.jpg" alt="">
+    </figure>
+    <figure>
+        <img src="image/normal-weight.jpg" alt="">
+    </figure>
+    <figure>
+        <img src="image/over-weight.jpg" alt="">
+    </figure>
+    <figure>
+        <img src="image/Fat.jpg" alt="">
+    </figure>
+
+    <!--Script-->
+    <script src="js/script.js"></script>
+</body>
+</html>
